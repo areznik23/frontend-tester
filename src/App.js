@@ -1,9 +1,10 @@
 import { useEffect } from 'react'
+
 const App = () => {
 
 	useEffect(() => {
 		fetch("https://testing-lynx-api.herokuapp.com/hello")
-			.then(res => console.log(res)
+			.then(res => console.log(res))
 	}, [])
 	
 	return (
